@@ -1,6 +1,7 @@
 import time
 from os import system, name
 DataSales = {}
+Idk = {}
 def modifyData(mode, itemID, itemPrice):
 	if mode == 1:
 		DataSales.update({itemID: itemPrice})
